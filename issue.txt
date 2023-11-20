@@ -1,0 +1,3 @@
+## mkdir ファイル名、npm instarll express, yesでエンター
+## index。jsで3008portを使用
+## node index.jsのコマンドラインで起動、http://localhost:3008アクセス
