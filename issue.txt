@@ -1,6 +1,7 @@
 ## mkdir ファイル名、npm instarll express, 選択肢をyesでエンター
 ## index.jsで3008portを使用
 ## node index.jsのコマンドラインで起動、http://localhost:3008 アクセス
+## github https://github.com/lumijoe/express-app
 
 ## 基本構造
     // 1：expressオブジェクトをrequire
