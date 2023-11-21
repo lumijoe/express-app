@@ -1,3 +1,17 @@
 ## mkdir ファイル名、npm instarll express, 選択肢をyesでエンター
 ## index.jsで3008portを使用
-## node index.jsのコマンドラインで起動、http://localhost:3008アクセス
+## node index.jsのコマンドラインで起動、http://localhost:3008 アクセス
+
+## 基本構造
+    // 1：expressオブジェクトをrequire
+    const express = require('express')
+    // 2：appオブジェクト（アプリケーションの作成）
+    var app = express()
+    // 3：ルーティングの設定
+    app.get('/', (req, res) => {
+        res.send('Welcom to Express!')
+    })
+    // 4：待ち受け開始
+    app.listen(3008, () => {
+        console.log('Start server port:3008')
+    })
